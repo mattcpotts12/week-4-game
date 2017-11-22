@@ -1,0 +1,112 @@
+body {
+	background-image: url("../images/crystalGIF.gif");
+	background-size: 300px 250px;
+	backface-visibility: 
+	/*background-repeat: repeat;*/
+}
+
+
+
+
+header {
+	background-color: blue;
+	color: white;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 20px;
+	font-family: 'Righteous', cursive;
+	border-bottom: 5px solid;
+}
+
+h1 {
+	text-align: center;
+	padding: auto;
+	padding: 20px 0 5px 0;
+}
+	
+h2 {
+	text-align: center;
+}
+
+section {
+	background-color: black;
+	color: white;
+	width: 80%;
+	padding: 5px 15px 30px 15px;
+	font-size: 14px;
+	margin: auto;
+	margin-bottom: 15px;
+	font-family: 'Spectral SC', serif;
+	border: 1px solid;
+}
+#scoreBox {
+ 	display: block;
+ 	margin: auto;
+ 	width: 80%;
+ 	border: 1px solid;
+ 	padding: 15px 0 15px 0;
+ 	margin-bottom: 15px;
+ 	background-color: grey;
+ 	color: black;
+ 	border: 3px solid;
+}
+
+#matchNumber {
+	margin: auto;
+	width: 400px;
+	height: 100%;
+	font-size: 24px;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#scoreCard {
+	margin: auto;
+	width: 150px;
+	height: 100%;
+	font-size: 24px;
+	border-left: 1px solid;
+}
+
+
+#crystalBox {
+	
+	display: block;
+	text-align: center;
+	width: 75%;
+	margin: auto;
+}
+
+.crystal {
+	width: 125px;
+	height: auto;
+	overflow: hidden;
+	background: transparent;
+}
+
+#scoreBanner {
+	width: 30%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	border: 3px solid;
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	background-color: yellow;
+}
+
+#scoreCounter {
+	width: 30%;
+	height: 85px; 
+	margin: auto;
+
+}
+
+.spinEffect{
+   transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+}
